@@ -12,6 +12,7 @@ import ProductUSP from '../components/ProductUSP';
 import RelatedProducts from '../components/RelatedProducts';
 import FeaturedCategory from '../components/FeaturedCategory';
 import { flexBox, justifyBetween } from '../../assets/style';
+import AskQuestion from '../components/AskQuestion';
 
 const ProductDetail = () => {
     const data = [
@@ -19,6 +20,7 @@ const ProductDetail = () => {
         { key: 'ProductInfo', component: <ProductInfo/> },
         { key: 'ProductDescription', component: <ProductDescription/> },
         { key: 'HowItWorks', component: <HowItWorks/> },
+        { key: 'AskQuestion', component: <AskQuestion/> },
         { key: 'SellerInformation', component: <SellerInformation/> },
         { key: 'OtherProducts', component: <OtherProducts/> },
         { key: 'ProductUSP', component: <ProductUSP/> },
